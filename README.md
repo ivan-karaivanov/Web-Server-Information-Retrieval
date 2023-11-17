@@ -6,25 +6,25 @@ The Web Server Information Retrieval Tool is a Python script designed to gather 
 
 ## Key Features
 
-- Reads a list of URLs from "recon.txt."
+- Reads the list of URLs from "recon.txt."
 - Sends HTTP GET requests to each URL.
 - Retrieves and displays the headers of the server responses.
 
 ## Usage
 
-1. Ensure that the "recon.txt" file contains a list of URLs, each on a new line.
-2. Run the script: `python your_script.py`
+1. Ensure that the "recon.txt" file contains a list of your URLs, each on a new line.
+2. Run the script.
 3. View the footprint report for each web server.
 
 ## Example
 
 ```bash
-Footprint report for http://example.com Web Server:
+Footprint report for http://google.com Web Server:
 Server : nginx
 Content-Type : text/html
 ...
 
-Footprint report for http://another-example.com Web Server:
+Footprint report for http://facebook.com Web Server:
 Server : Apache
 Content-Type : application/json
 ...
